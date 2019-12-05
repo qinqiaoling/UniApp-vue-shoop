@@ -38,7 +38,7 @@ UniAPP是一个基于Vue.js开发所有前端应用的框架，开发者编写�
 ## 参与开发
 我们欢迎广大开发者贡献大家的智慧，让MzShop变得更完美。 
 
-## 在此基础上本项目开发者进行二次开发及更改
+## 重点：在此基础上本项目开发者对此项目进行二次开发及更改
 
 ##### 操作流程
 1. 首先Fork [liuming9157/mzshop](https://github.com/liuming9157/mzshop)(GitHub)或[liuming9157/mzshop](https://gitee.com/liuming9157/mzshop)(Gitee)
@@ -57,7 +57,6 @@ UniAPP是一个基于Vue.js开发所有前端应用的框架，开发者编写�
 ## 定制开发
 定制开发请联系作者
 ##### 作者信息
-Jack Liu  
-Email:liuming@mzsat.cn  
-QQ：2222086676 
-Wechat:![liumingwx02](http://cdn.mzyun.tech/wxqrcode.png)
+QQL
+Email:15623978859@qq.com
+QQ：15623978859
