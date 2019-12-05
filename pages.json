@@ -1,0 +1,165 @@
+{
+	"pages": [
+		{
+			"path": "pages/tabs/index/index",
+			"style": {"navigationBarTitleText": "商城"}
+		},
+		{
+			"path": "pages/tabs/type/type",
+			"style": {"navigationBarTitleText": "商品分类"}
+		},
+		{
+			"path": "pages/tabs/cart/cart",
+			"style": {"navigationBarTitleText": "购物车"}
+		},
+		{
+			"path": "pages/tabs/mine/mine",
+			"style": {"navigationBarTitleText": "我的"}
+		},
+		{
+			"path": "pages/tabs/aboutshoop/aboutshoop",
+			"style": {
+				"navigationBarTitleText": "关于商城",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabs/index/meetingplace",
+			"style": {"navigationBarTitleText": "商城会场"}
+		},
+		{
+			"path": "pages/tabs/mine/minecardbag",
+			"style": {"navigationBarTitleText": "我的卡包"}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {"navigationBarTitleText": "登录"}
+		},
+		{
+			"path": "pages/login/registeraccount",
+			"style": {"navigationBarTitleText": "注册账号"}
+		},
+		{
+			"path": "pages/login/Sendmail",
+			"style": {"navigationBarTitleText": "发送邮箱"}
+		},
+		{
+			"path": "pages/login/ResetPassword",
+			"style": {"navigationBarTitleText": "重置密码"}
+		},
+		{
+            "path" : "pages/address/address-list/address-list",
+            "style" : {"navigationBarTitleText": "地址列表"}
+        },
+		{
+            "path" : "pages/address/address-edit/address-edit",
+            "style" : {"navigationBarTitleText": "地址编辑"}
+        },
+		{
+		    "path" : "pages/information/information",
+		    "style" : {
+				"navigationBarTitleText": "消息",
+				"disableScroll":true,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/information/information-details",
+		    "style" : {"navigationBarTitleText": "消息详情"}
+		},
+		{
+            "path" : "pages/about/about",
+            "style" : {"navigationBarTitleText": "关于我们"}
+        },
+		{
+            "path" : "pages/setting/setting",
+            "style" : {"navigationBarTitleText": "设置"}
+        },
+		{
+			"path": "pages/setting/ResAccount",
+			"style": {"navigationBarTitleText": "修改账号"}
+		},
+		{
+			"path": "pages/setting/ResPassword",
+			"style": {"navigationBarTitleText": "修改密码"}
+		},
+		{
+			"path": "pages/setting/Resheadimg",
+			"style": {"navigationBarTitleText": "修改头像"}
+		},
+		{
+			"path": "pages/setting/ResIphone",
+			"style": {"navigationBarTitleText": "修改手机号"}
+		},
+		{
+			"path": "pages/setting/ResMail",
+			"style": {"navigationBarTitleText": "修改邮箱"}
+		},
+		{
+            "path" : "pages/goods/detail/detail",
+            "style" : {"navigationBarTitleText": "商品详情"}
+        },
+		{
+            "path" : "pages/order/order",
+            "style" : {"navigationBarTitleText": "订单"}
+        },
+		{
+		    "path" : "pages/order/ordersure",
+		    "style" : {"navigationBarTitleText": "确认订单"}
+		},
+		{
+		    "path" : "pages/order/orderinfo",
+		    "style" : {"navigationBarTitleText": "订单详情"}
+		},
+		{
+			"path":"pages/evaluate/evaluate",
+			"style":{"navigationBarTitleText":"评价"}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#d81e06",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/tabs/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabs/type/type",
+				"iconPath": "static/tabs/type.png",
+				"selectedIconPath": "static/tabs/type1.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/tabs/cart/cart",
+				"iconPath": "static/tabs/cart.png",
+				"selectedIconPath": "static/tabs/cart1.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/tabs/mine/mine",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			},
+			{
+				"pagePath": "pages/tabs/aboutshoop/aboutshoop",
+				"iconPath": "static/tabs/smile.png",
+				"selectedIconPath": "static/tabs/smile1.png",
+				"text": "关于商城"
+			}
+		]
+	}
+}

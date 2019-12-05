@@ -1,0 +1,234 @@
+.orderinfo{
+	.header{
+		background: linear-gradient(to right,#fe8d01,#ff5101);
+		color: #FFFFFF;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 40upx 80upx;
+		.headerl{
+			font-size: 32upx;
+			.limitsize{
+				font-size: 24upx;
+				padding-top: 10upx;
+			}
+		}
+		.headerr{
+			width: 80upx;
+			height: 80upx;
+			margin-left: 20upx;
+		}
+	}
+	.adress{
+		padding: 20upx 20upx 20upx 80upx;
+		font-size: 28upx;
+		border-bottom: 20upx solid rgba(0,0,0,0.05);
+		color: #666666;
+		background: url(../../static/location.png) no-repeat left center;
+		background-size: 40upx 40upx;
+		background-position-x: 20upx;
+		.adress-top{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.adress-bot{
+			
+		}
+	}
+	.ordershoop{
+		.goos_lists {
+			display: flex;
+			flex-direction: column;
+			padding: 0 32upx;
+			position: relative;
+			border-bottom: 16upx solid rgba(0,0,0,0.05);
+		}
+		.clock_image {
+			width: 32upx;
+			height: 32upx;
+			margin-right: 10upx;
+			vertical-align: middle;
+		}
+		.goods_time {
+			font-size: 25upx;
+			color: #1a1a1a;
+			opacity: 0.5;
+		}
+		.goods_state{
+			font-size: 30upx;
+			color: #fa2a2d;
+			line-height: 1;
+		}
+		._state{
+			line-height: 1;
+		}
+		.delete_image {
+			width: 32upx;
+			height: 32upx;
+			margin-left: 16upx;
+			vertical-align: middle;
+		}
+		.sigle_goos_list {
+			display: flex;
+			padding-bottom: 26upx;
+			border-bottom: 2upx solid rgba(0, 0, 0, 0.2);
+		}
+		.image_contaner {
+			width: 132upx;
+			height: 132upx;
+			margin: 0 32upx 0 0;
+		}
+		.goods_image {
+			width: 132upx;
+			height: 132upx;
+			border-radius: 8upx;
+		}
+		.goods_description {
+			width: 75%;
+		}
+		.title_size {
+			width: 85%;
+		}
+		.goods_title {
+			color: #1a1a1a;
+			font-size: 28upx;
+			line-height: 40upx;
+			margin-bottom: 26upx;
+		}
+		.goods_size {
+			color: #1A1A1A;
+			opacity: 0.5;
+			font-size: 24upx;
+		}
+		.money_amount {
+			width: 15%;
+		}
+		.goods_money {
+			width: 100%;
+			font-size: 24upx;
+			text-align: right;
+		}
+		.goods_amount {
+			width: 100%;
+			color: #1A1A1A;
+			opacity: 0.5;
+			font-size: 24upx;
+			align-self: center;
+			text-align: right;
+		}
+		.bottom_amount_money {
+			display: flex;
+			width: 100%;
+			justify-content: flex-end;
+			margin-top: 30upx;
+		}
+		._amount {
+			margin: 2upx 10upx 0 0;
+			font-size: 24upx;
+			color: #1a1a1a;
+			opacity: 0.5;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.need_pay {
+			color: #1a1a1a;
+			font-size: 28upx;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		._money {
+			color: #fa2a2d;
+			font-size: 32upx;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.state_btn {
+			display: flex;
+			justify-content: flex-end;
+			padding: 20upx 0 40upx 0;
+		}
+		._btn {
+			width: 152upx;
+			height: 58upx;
+			text-align: center;
+			color: #FA2A2D;
+			font-size: 28upx;
+			line-height: 58upx;
+			border:2upx solid #FA2A2D;
+			border-radius: 6upx;
+		}
+		.align_items_center {
+			display: flex;
+			align-items: center;
+		}
+		.justify_content_center {
+			display: flex;
+			justify-content: center;
+		}
+		.flex_column {
+			display: flex;
+			flex-direction: column;
+		}
+		.flex_row {
+			display: flex;
+			flex-direction: row;
+		}
+		.flex_end {
+			display: flex;
+			justify-content: flex-end;
+		}
+		.space_between {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin: 20upx 0;
+			min-height: 40upx;
+		}
+	}
+	.ordercode{
+		position: relative;
+		font-size: 28upx;
+		color: #656565;
+		padding: 20upx 32upx 10upx 32upx;
+		border-bottom: 1px solid #e8e8e8;
+		.ordercodev{
+			padding-bottom: 10upx;
+			word-break: break-all;
+		}
+		.copy{
+			position: absolute;
+			top: 20upx;
+			right: 32upx;
+			border: 1px solid #C0C0C0;
+			font-size: 28upx;
+			padding: 1upx 8upx;
+		}
+	}
+	.contactway{
+		border-bottom: 1px solid #e8e8e8;
+		.contactwayflex{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 32upx;
+			color: #051b29;
+			.flexv{
+				flex: 1;
+				text-align: center;
+				padding: 20upx;
+				.fleximg{
+					border: 1px solid #e8e8e8;
+					height: 72upx;
+					line-height: 72upx;
+					.imgicon{
+						width: 40upx;
+						height: 40upx;
+						vertical-align: sub;
+						margin-right: 20upx;
+					}
+				}
+			}
+		}
+	}
+}
