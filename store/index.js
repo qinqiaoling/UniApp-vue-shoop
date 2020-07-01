@@ -9,6 +9,7 @@ const store = new Vuex.Store({
 		 * 是否需要强制登录
 		 */
 		forcedLogin: true,
+		launchFlag:false,
 		hasLogin: uni.getStorageSync('hasLogin') == undefined || uni.getStorageSync('hasLogin') == false ? false : true,//true--登录，false--未登录
 		// userInfo: {},
 		// user_id: ''

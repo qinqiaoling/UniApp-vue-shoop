@@ -39,7 +39,7 @@
 			// 提交订单
 			submitfrom(e){
 				this.productlist.map((item)=>{
-					mockData.notPayList.push(item)
+					mockData.allTradeList.push(item)
 				})
 				this.$jump('/pages/order/order?index=1')
 				// console.log(e)

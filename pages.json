@@ -1,6 +1,20 @@
 {
 	"pages": [
 		{
+			"path": "pages/tabs/index/init",//入口页
+			"style": {"navigationBarTitleText": ""}
+		},
+		{
+			"path": "pages/tabs/index/guide",//引导页
+			"style": {
+				"navigationBarTitleText": "",
+				"titleNView": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
 			"path": "pages/tabs/index/index",
 			"style": {"navigationBarTitleText": "商城"}
 		},
@@ -97,6 +111,14 @@
 			"path": "pages/setting/ResMail",
 			"style": {"navigationBarTitleText": "修改邮箱"}
 		},
+		{
+			"path": "pages/setting/testpage",
+			"style": {"navigationBarTitleText": "测试页面"}
+		},
+        {
+        	"path": "pages/setting/speechRecognition",
+        	"style": {"navigationBarTitleText": "语音识别页面"}
+        },
 		{
             "path" : "pages/goods/detail/detail",
             "style" : {"navigationBarTitleText": "商品详情"}
